@@ -1,0 +1,37 @@
+.thongso {
+    padding-top: 10px;
+}
+
+.thongso li {
+	display: table;
+    background: #fff;
+    width: 100%;
+    border-top: 1px solid #eee;
+    padding: 5px 0;
+}
+
+.thongso li span {
+	display: table-cell;
+    width: 40%;
+    vertical-align: top;
+    padding: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.thongso li div {
+	display: table-cell;
+    width: auto;
+    vertical-align: top;
+    padding: 6px 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.rom:hover {
+    cursor: pointer;
+}
+
+.item .fa-check-circle-o {
+    display: inline-block;
+}
